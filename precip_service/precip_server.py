@@ -1,5 +1,6 @@
 import random
 from flask import Flask, request
+from jinja2.utils import escape
 
 app = Flask(__name__)
 
